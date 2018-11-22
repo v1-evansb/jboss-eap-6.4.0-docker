@@ -1,5 +1,18 @@
-# jboss-eap-6.4.0-docker
+# Version 1 JBoss EAP 6.4.0 image
+
+## Build the Version 1 JBoss 6.4.0 EAP Docker image
+
+1. Download the jboss-eap-6.4.0.zip file to this directory
+1. Build the docker image with a tag
+  - `docker build -t v1/jboss-eap-6.4.0 .`
+
+----
+# Original repository documentation
+
+## jboss-eap-6.4.0-docker
 Dockerfile for help to someone who needs to create a docker container for development
+
+## Main repo instructions
 
 * You need download the jboss-eap-6.4.0.zip from `http://developers.redhat.com` because we are not able to redistribute this versión according our development purpose.  Please review `http://developers.redhat.com/terms-and-conditions/`
 * Then you build the image `` docker build -t jboss-eap:6.4.0 . ``
